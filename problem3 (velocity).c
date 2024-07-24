@@ -4,7 +4,7 @@
 
 double velocity;
 
-void calaculate_velocity (){
+void calculate_velocity (){
 
     int Startpoint,Endpoint;
     printf("Enter The Start Point : \n");
@@ -22,7 +22,7 @@ void calaculate_velocity (){
 
 int main(){
 
- calaculate_velocity();
+ calculate_velocity();
 
 return 0;
 
