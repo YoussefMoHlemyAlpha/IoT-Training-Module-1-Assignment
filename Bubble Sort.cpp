@@ -1,23 +1,20 @@
 //Module 1 Assignment – Part A – Double Bonus
-
-
-# include <stdio.h>
+#include <iostream>
+using namespace std;
 
 void BubbleSort(){
 int size;
-
-
-printf("Please Enter The Size of  Array \n");
-scanf("%d" ,&size);
+cout << "Please Enter The Size of  Array \n";
+cin >> size;
 int Elements[size];
 
 for (int i=0;i<=size-1;i++){
-    printf("Enter Element %d :",i+1);
-    scanf("%d" ,&Elements[i]);
+    cout << "Enter Element " << i+1 << ": ";
+    cin >> Elements[i];
 } 
-    printf("The Original Array \n");
+    cout << "The Original Array \n";
     for(int i=0;i<=size-1;i++){
-        printf("%d ",Elements[i],"\n");
+        cout << Elements[i] << " ";
     }
     
     int temp;
@@ -30,13 +27,14 @@ for (int i=0;i<=size-1;i++){
             }
         }
     }
-    printf("\n");
-    printf("The Sorted Array \n");
+    cout << "\n";
+    cout << "The Sorted Array \n";
         for(int i=0;i<=size-1;i++){
-        printf("%d ",Elements[i]);
+        cout << Elements[i] << " ";
     }
 
 }
+
 int main(){
 
 BubbleSort();
