@@ -13,11 +13,11 @@ int main()
   scanf("%ld", &num);
   if (isperfectsquare(num) == true)
   {
-    printf(" %.1d is perfect number \n ", num);
+    printf(" %.1d is perfect square \n ", num);
   }
   else
   {
-    printf(" %.1d is not perfect number \n", num);
+    printf(" %.1d is not perfect square \n", num);
   }
 
   int numb;
