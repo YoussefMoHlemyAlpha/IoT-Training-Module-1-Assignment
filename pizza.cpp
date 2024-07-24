@@ -13,5 +13,7 @@ int main()
     cin >> diameter2;
     cout << "Enter the price (in USD) of the second pizza: ";
     cin >> price2;
+
+    cout<<"Hello World!!";
     return 0;
 }
